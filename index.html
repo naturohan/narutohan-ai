@@ -1015,7 +1015,15 @@ function askTopic(question) {
   topicBtns.forEach(b => b.classList.remove('active'));
   event?.target?.classList.add('active');
 }
+const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+// paste from Google Cloud Console
 
+const ALLOWED_EMAILS = [
+  'rohan@qlub.io',
+  'rosario.costantino@qlub.io',
+  // ...
+];
+```
 // Auto-focus input
 inputEl.focus();
 </script>
